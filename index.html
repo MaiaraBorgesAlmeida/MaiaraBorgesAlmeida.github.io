@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <title>Meu Portifolio Web</title>
-
     <link rel="stylesheet" type="text/css" href="style.css">
 
       <style>
 
-        h1 {
+h1 {
         font-size: 60px;
         font-family:initial;
         font-style: italic;
@@ -18,6 +17,7 @@
           font-size: 50px;
           font-family:fantasy;
           font-style: normal;
+          text-align: center;
         }
 
         p {
@@ -70,6 +70,28 @@
           font-size: 30px;
         }
 
+        #Foto {
+          float: left;
+          padding: 8px;
+          background-color: salmon;
+        }
+        
+       .imagem {
+         height: 445px;
+       }
+
+       #Apresentação {
+          position:absolute;
+          top: 65%;
+          right:10%;
+          left: 25%;
+        } 
+
+        ol li:nth-child(odd) {
+          background-color: salmon;
+        }
+        
+
       </style>
 
   </head>
@@ -83,13 +105,14 @@
       <li><a href="#Blog">Blog</a></li>
      </ul>
       
-     <div>
+    <div>
      
       <h2>Maiara Borges de Almeida</h2> 
 
-     <div>
+    <div class="imagem">
+    
     <img src="fotomaiara.jpeg" alt="Foto da Maiara sorrindo de blusa preta" 
-      width=300px
+      width=290px
       id= "Foto"/> 
    
      <p id="Apresentação"> Tenho <strong class="idade">19 anos </strong>, sou <strong class="nacionalidade">brasileira</strong> 
@@ -100,12 +123,13 @@
        mas espero me tornar uma boa desenvolvedora ao final do curso. <br>
        Gosto de ouvir músicas, escrever, 
        passar um tempo de qualidade com as pessoas que eu amo e praticar muay-thai.</p>
-     </div>
+     
+    </div>
       
-      </div>
+    </div>
 
   
-    <p id="Habildades"> Algumas das minhas <strong>habilidades</strong> são:</p>
+    <p id="Habildades">Algumas das minhas <strong>habilidades</strong> são:</p>
       <ol class="estilodelista">
       <li class="cominicacao">Comunicação</li>
       <li class="sinceridade">Sinceridade e transparência</li>
