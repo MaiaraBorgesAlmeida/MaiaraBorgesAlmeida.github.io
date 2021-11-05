@@ -1,61 +1,83 @@
 h1 {
-    font-size: 60px;
-    font-family:initial;
-    font-style: italic;
-    }
+  font-size: 60px;
+  font-family:initial;
+  font-style: italic;
+  }
 
-    h2 {
-      font-size: 50px;
-      font-family:fantasy;
-      font-style: normal;
-    }
+  h2 {
+    font-size: 50px;
+    font-family:fantasy;
+    font-style: normal;
+    text-align: center;
+  }
 
-    p {
-      font-size: 25px;
-      font-family:cursive;
-      font-style: normal;
-    }
+  p {
+    font-size: 25px;
+    font-family:cursive;
+    font-style: normal;
+  }
 
-    body {
-      background-color:pink;
-    }
+  body {
+    background-color:pink;
+  }
 
-    .idade {
-      background-color:salmon;
-    }
+  .idade {
+    background-color:salmon;
+  }
 
-    .nacionalidade {
-      background-color: salmon;
-    }
+  .nacionalidade {
+    background-color: salmon;
+  }
 
-    .cidade {
-      background-color: salmon;
-    }
+  .cidade {
+    background-color: salmon;
+  }
 
-    .estilodelista {
-      font-size: 25px;
-    }
+  .estilodelista {
+    font-size: 25px;
+  }
 
-    .indice {
-      font-size: 20px;
-    }
+  .indice {
+    font-size: 20px;
+  }
 
-    .comunicacao {
-      font-size: 26px;
-    }
+  .comunicacao {
+    font-size: 26px;
+  }
 
-    .sinceridade {
-      font-size: 27px;
-    }
+  .sinceridade {
+    font-size: 27px;
+  }
 
-    .relacionamento {
-      font-size: 28px;
-    }
+  .relacionamento {
+    font-size: 28px;
+  }
 
-    .comprometimento {
-      font-size: 29px;
-    }
+  .comprometimento {
+    font-size: 29px;
+  }
 
-    .criatividade {
-      font-size: 30px;
-    }
+  .criatividade {
+    font-size: 30px;
+  }
+
+  #Foto {
+    float: left;
+    padding: 8px;
+    background-color: salmon;
+  }
+  
+ .imagem {
+   height: 445px;
+ }
+
+ #Apresentação {
+    position:absolute;
+    top: 65%;
+    right:10%;
+    left: 25%;
+  } 
+
+  ol:hover li:nth-child(odd) {
+    background-color: salmon;
+  }
